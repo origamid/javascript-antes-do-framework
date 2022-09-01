@@ -4,7 +4,7 @@
 //   return json;
 // }
 
-// fetchProdutos("https://ranekapi.origamid.dev/wp-json/api/produto");
+// fetchProdutos("https://ranekapi.origamid.dev/json/api/produto");
 
 async function fetchProdutos(url) {
   const response = await fetch(url);
@@ -13,5 +13,5 @@ async function fetchProdutos(url) {
 }
 
 const requisicao = fetchProdutos(
-  "https://ranekapi.origamid.dev/wp-json/api/produto"
+  'https://ranekapi.origamid.dev/json/api/produto',
 );
